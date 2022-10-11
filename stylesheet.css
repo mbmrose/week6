@@ -12,7 +12,7 @@ h2 + p{
 } */
 
 
-li > a{
+li>a{
     color: green;
     
 }
@@ -25,8 +25,8 @@ li>a:visited{
     color: red;
 }
 
-a:first-of-type::first-letter{
-    font-style: bold;
+li:first-of-type::first-letter{
+    font-weight: bold;
     font-size: 120%;
 }
 
