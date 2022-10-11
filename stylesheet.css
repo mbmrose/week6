@@ -17,19 +17,19 @@ li > a{
     
 }
 
-a:hover{
+li>a:hover{
     color: pink;
 }
 
-a:visited{
+li>a:visited{
     color: red;
 }
 
-li:first-of-type::first-letter{
+a:first-of-type::first-letter{
     font-style: bold;
     font-size: 120%;
 }
 
-a:[Links]{
+body>a:first-child{
     background-color: yellow;
 }
