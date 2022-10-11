@@ -6,9 +6,7 @@ h2 + p{
     color: red;
 }
 
-ul{
-    list-style: none;
-    border-bottom: 1px;
-    border-color: grey;
-    border-style: solid;
+.list > li{
+    list-style-type: none;
+    border-bottom: 1px grey solid;
 }
