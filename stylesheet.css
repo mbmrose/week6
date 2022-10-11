@@ -33,13 +33,23 @@ li:first-of-type::first-letter{
 body>a:first-child{
     background-color: yellow;
 } */
-
+/* 
 img{
     float: left;
 }
 p.below{
     clear:both
-}
+} */
 
+.target{
+    width:50px;
+    height:50px;
+    background-color: forestgreen;
+    }
+    .container
+    {
+    border: 2px gray solid;
+    }
+    
 
 
