@@ -17,7 +17,19 @@ li > a{
     
 }
 
-a::first-line::first-letter{
+a:hover{
+    color: pink;
+}
+
+a:visited{
+    color: red;
+}
+
+li:first-of-type::first-letter{
     font-style: bold;
     font-size: 120%;
+}
+
+a:[Links]{
+    background-color: yellow;
 }
